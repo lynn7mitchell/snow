@@ -1,0 +1,45 @@
+body{
+  background: #102a54;
+}
+
+#container {
+	position: relative;
+	margin: 0 auto;		
+}
+
+#christmastree {
+	position: absolute;
+	top: 30%; left: 38%;
+	
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 8em;
+	color: crimson;
+	position: absolute;
+    width: 100%;
+    text-align: center;
+	
+}
+
+#sky{
+    position: absolute;
+    z-index: 50;
+}
+	
+.tree{
+    width: 100%;
+    text-align: center;
+}
+	
+img{
+    position: absolute;
+    z-index: 100;
+    margin-top: 300px;
+}
+	
+#othersky{
+    position: absolute;
+    z-index: 150;
+}
